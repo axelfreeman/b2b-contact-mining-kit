@@ -131,3 +131,6 @@ MIT — use, modify, sell, whatever. Just don't blame me if you scrape too hard.
 - **Deep Research Guide:** https://tapacapi.com/deep-research-guide.html
 - **Modern Stack Article:** https://tapacapi.com/modern-contact-finding-stack.html
 - **Author:** [Axel Freeman](https://axelfreeman.com)
+---
+
+*Last updated: August 2026.*
