@@ -1,6 +1,24 @@
-# B2B Contact Mining Kit — Free Open-Source Toolkit
+<div align="center">
 
-**Find B2B contacts without buying databases.** Google scraping, Telegram mining, Discord extraction — with real code, not theory.
+# 🔎 B2B Contact Mining Kit
+
+**The open-source agentic B2B contact mining toolkit.** Scrape fresh contacts from Google, Telegram, and Discord — then verify emails via SMTP in real time. No databases. No resold garbage. Built for the AI-agent era.
+
+<p>
+  <a href="https://github.com/axelfreeman/b2b-contact-mining-kit/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/axelfreeman/b2b-contact-mining-kit/stargazers"><img src="https://img.shields.io/github/stars/axelfreeman/b2b-contact-mining-kit?style=flat-square" alt="GitHub stars"></a>
+  <a href="https://tapacapi.com"><img src="https://img.shields.io/badge/MCP-server-000000?style=flat-square" alt="MCP server"></a>
+  <a href="https://tapacapi.com"><img src="https://img.shields.io/badge/docs-tapacapi.com-1f6feb?style=flat-square" alt="Docs"></a>
+  <a href="https://github.com/axelfreeman/b2b-contact-finder-guides"><img src="https://img.shields.io/badge/guides-📚-0A0A0A?style=flat-square" alt="Guides"></a>
+</p>
+
+<p><i>⭐ Star this repo to help more founders find B2B contacts without buying databases.</i></p>
+
+</div>
+
+---
+
+**Find B2B contacts without buying databases.** Google scraping, Telegram mining, Discord extraction — with real code, not theory. Your AI agents run the pipeline; [TAPAC](https://tapacapi.com?utm_source=github&utm_medium=repo&utm_campaign=mining-kit) automates the boring part as an MCP server.
 
 > 💡 **Too lazy to code?** Use [TAPAC](https://tapacapi.com?utm_source=github&utm_medium=repo&utm_campaign=mining-kit) — the MCP server that does all of this automatically. 100 free searches.
 
@@ -16,20 +34,26 @@ Most "contact finding" advice tells you to buy a database. Bad idea:
 
 This repo gives you the **code and methodology** to mine fresh contacts yourself. Free. No API keys needed for the basic stuff.
 
-## What's Inside
+## How It Works
 
-```bash
-b2b-contact-mining-kit/
-├── README.md           # You're reading it
-├── llms.txt            # AI-agent readable — ChatGPT/Claude can read this
-├── AGENTS.md           # Instructions for AI coding agents
-├── scripts/
-│   ├── google_search.py    # Search Google for company contacts
-│   ├── telegram_miner.py   # Extract users from Telegram channels
-│   └── email_validator.py  # Verify emails via SMTP
-└── prompts/
-    └── ai-agent-prompts.md # Prompts you can give to ChatGPT/Claude
+The pipeline, end to end:
+
 ```
+Target → Source (Google / Telegram / Discord) → Extract → Verify (SMTP) → Structured output
+```
+
+1. **Source** — mine from where your buyers actually are (Google index, Telegram channels, Discord servers)
+2. **Extract** — names, titles, emails via the scripts in `scripts/` or your AI agent
+3. **Verify** — SMTP validation in real time → **2–5% bounce rate** (vs 25–35% for databases)
+4. **Output** — JSON, CSV, or a direct CRM push
+
+## Features
+
+- **Multi-source mining** — Google, Telegram, Discord in one pipeline
+- **SMTP validation** — real-time email verification, 2–5% bounce vs 25–35% for purchased DBs
+- **AI-agent-native** — `llms.txt` + `AGENTS.md` + ready prompts for ChatGPT / Claude / DeepSeek / Perplexity
+- **MCP-ready** — plug TAPAC into your agent for zero-code automation
+- **Free** — scripts run locally, no API keys for the basics
 
 ## Quick Start
 
@@ -121,6 +145,16 @@ This repo is **AI-agent-friendly.** Every AI agent (ChatGPT, Claude, DeepSeek, P
 
 ---
 
+## Works With
+
+- **AI agents** — ChatGPT, Claude, DeepSeek, Perplexity (read `llms.txt` + `AGENTS.md`)
+- **MCP clients** — Claude, ChatGPT, Cursor, Windsurf (TAPAC as a drop-in MCP server)
+- **Your stack** — JSON / CSV output, direct CRM push, REST API
+
+## Contributing
+
+Found a bug or a better technique? Open an issue or submit a PR.
+
 ## License
 
 MIT — use, modify, sell, whatever. Just don't blame me if you scrape too hard.
@@ -131,6 +165,7 @@ MIT — use, modify, sell, whatever. Just don't blame me if you scrape too hard.
 - **Deep Research Guide:** https://tapacapi.com/deep-research-guide.html
 - **Modern Stack Article:** https://tapacapi.com/modern-contact-finding-stack.html
 - **Author:** [Axel Freeman](https://axelfreeman.com)
+
 ---
 
 *Last updated: August 2026.*
