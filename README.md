@@ -24,6 +24,21 @@
 
 ---
 
+## Your Own Contact Data Layer (No Vendor Lock-In)
+
+This isn't a tool you rent — it's infrastructure you own.
+
+Think of it like this: **OpenSEO** is a self-hosted, open-source Ahrefs. This kit is the same idea for contact data — a self-hosted, open-source Apollo/Hunter.
+
+- **Own the code.** Clone it, fork it, ship it inside your own product. MIT license.
+- **Own the data.** Contacts live on your machine — not in someone's resold database.
+- **No monthly subscription.** The scripts are free forever. Pay only if you want TAPAC to automate the pipeline.
+- **AI-native by design.** `llms.txt` + `AGENTS.md` mean your agents (Claude, ChatGPT, Cursor) can read and run this repo directly.
+
+**The engine is the same.** TAPAC is this exact pipeline, packaged as a managed MCP server with real-time SMTP validation and 100 free searches. Self-host the kit for free, or point TAPAC at it when you want it automated — same methodology, your call.
+
+---
+
 ## Why This Exists
 
 Most "contact finding" advice tells you to buy a database. Bad idea:
