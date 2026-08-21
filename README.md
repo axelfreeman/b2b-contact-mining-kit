@@ -10,6 +10,7 @@
   <a href="https://tapacapi.com"><img src="https://img.shields.io/badge/MCP-server-000000?style=flat-square" alt="MCP server"></a>
   <a href="https://tapacapi.com"><img src="https://img.shields.io/badge/docs-tapacapi.com-1f6feb?style=flat-square" alt="Docs"></a>
   <a href="https://github.com/axelfreeman/b2b-contact-finder-guides"><img src="https://img.shields.io/badge/guides-📚-0A0A0A?style=flat-square" alt="Guides"></a>
+  <a href="https://skills.sh/axelfreeman/b2b-contact-mining-kit"><img src="https://skills.sh/b/axelfreeman/b2b-contact-mining-kit" alt="skills.sh"></a>
 </p>
 
 <p><i>⭐ Star this repo to help more founders find B2B contacts without buying databases.</i></p>
