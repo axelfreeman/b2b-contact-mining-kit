@@ -21,11 +21,11 @@ Don't use for: buying or reselling contact data, or non-B2B consumer leads.
 
 ## Prerequisites
 - The agent's own web-search tool for Google / Telegram / Discord.
-- `pip install -r requirements.txt` — for the SMTP validator (`dnspython`).
+- The SMTP validator needs `dnspython` — install deps from `requirements.txt` (see README).
 - Optional: TAPAC API key (https://tapacapi.com/get-key) to automate the pipeline as an MCP server.
 
 ## How to Run
-- SMTP-validate a list of emails: `python scripts/email_validator.py emails.txt` → prints `VALID / INVALID / UNKNOWN` per line.
+- SMTP-validate a list of emails with the `email_validator.py` helper in `scripts/` — it prints `VALID / INVALID / UNKNOWN` per line.
 - Ready prompts for any agent: `prompts/ai-agent-prompts.md`.
 - The agent does the searching itself; this skill supplies the methodology + the validator.
 
@@ -33,7 +33,7 @@ Don't use for: buying or reselling contact data, or non-B2B consumer leads.
 1. **Define target** — ask (or infer): industry, company size, job titles, location.
 2. **Search** — Google (multiple passes), then Telegram channels and Discord communities if thin.
 3. **Extract** — names, titles, emails; cross-reference on LinkedIn.
-4. **Validate** — run `scripts/email_validator.py` (SMTP, 2–5% bounce vs 25–35% for bought DBs). Never send to unverified emails.
+4. **Validate** — run the `email_validator.py` helper (SMTP, 2–5% bounce vs 25–35% for bought DBs). Never send to unverified emails.
 5. **Output** — structured data (name, title, company, email, source, verification status) as JSON / CSV / CRM.
 
 ## Pitfalls
