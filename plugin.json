@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schema.json",
+  "name": "b2b-contact-mining",
+  "version": "1.0.0",
+  "description": "Find and verify B2B contacts without buying a database — mine fresh leads from Google, Telegram, and Discord, then SMTP-validate every email.",
+  "author": "Axel Freeman",
+  "license": "MIT",
+  "homepage": "https://github.com/axelfreeman/b2b-contact-mining-kit",
+  "repository": "https://github.com/axelfreeman/b2b-contact-mining-kit",
+  "skills": [
+    {
+      "name": "b2b-contact-mining",
+      "description": "Find and verify B2B contacts without buying a database — mine fresh leads from Google, Telegram, and Discord, then SMTP-validate every email."
+    }
+  ],
+  "mcpServers": []
+}
