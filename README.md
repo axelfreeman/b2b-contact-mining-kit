@@ -167,6 +167,16 @@ This repo is **AI-agent-friendly.** Every AI agent (ChatGPT, Claude, DeepSeek, P
 - **MCP clients** — Claude, ChatGPT, Cursor, Windsurf (TAPAC as a drop-in MCP server)
 - **Your stack** — JSON / CSV output, direct CRM push, REST API
 
+## Need this done for you?
+
+The kit is free. If you want the pipeline run for your market — an enumerated list of companies with domains, mailboxes verified over SMTP, a sending domain that passes the deliverability checklist, two angles with a kill rule and a reply log you own — that is the service behind it.
+
+- **Outbound and lead generation for local B2B** (a countable market, and the list stays yours): https://axelfreeman.com/marketing-engineer-for-local-business.html
+- **Packages, scope and live artefacts** (entry from $900): https://axelfreeman.com/marketing-engineer.html
+- **Proof** — every shipped artefact with a link that opens right now: https://axelfreeman.com/proof.html
+
+No database is sold here. The deliverable is a file you own, with a source URL and a date checked on every row, and a stop rule written before the first send.
+
 ## Contributing
 
 Found a bug or a better technique? Open an issue or submit a PR.
@@ -184,4 +194,4 @@ MIT — use, modify, sell, whatever. Just don't blame me if you scrape too hard.
 
 ---
 
-*Last updated: August 2026.*
+*Last updated: September 2026.*
