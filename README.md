@@ -172,7 +172,9 @@ This repo is **AI-agent-friendly.** Every AI agent (ChatGPT, Claude, DeepSeek, P
 The kit is free. If you want the pipeline run for your market — an enumerated list of companies with domains, mailboxes verified over SMTP, a sending domain that passes the deliverability checklist, two angles with a kill rule and a reply log you own — that is the service behind it.
 
 - **Outbound and lead generation for local B2B** (a countable market, and the list stays yours): https://axelfreeman.com/marketing-engineer-for-local-business.html
-- **Verifying a list before you send it** — six checks in order, the three reject lists handed over with reasons, and the measured yield per source family (7,728 domains from 49 sources, 1,381 with a published address, 1,350 of 1,358 answering MX): https://axelfreeman.com/lead-list-verification.html?utm_source=github&utm_medium=repo&utm_campaign=mining-kit
+- **Verifying a list before you send it** — six checks in order, the three reject lists handed over with reasons, and the measured yield per source family (9,266 domains from 50 sources, 1,381 with a published address, 1,350 of 1,358 answering MX): https://axelfreeman.com/lead-list-verification.html?utm_source=github&utm_medium=repo&utm_campaign=mining-kit
+
+- **Deliverability check before the send** — nine checks in order (SPF/DKIM alignment, DMARC stage, tracking-domain separation, one domain per purpose, root-domain folding, MX, address matched to its own domain, role-mailbox rejection, suppression and per-domain caps), with the funnel measured on the same file (3,000 marketplace apps → 2,377 new domains → 1,798 live with product signals → 1,538 rows kept): https://axelfreeman.com/cold-email-deliverability-audit.html?utm_source=github&utm_medium=repo&utm_campaign=mining-kit
 - **Packages, scope and live artefacts** (entry from $900): https://axelfreeman.com/marketing-engineer.html
 - **Proof** — every shipped artefact with a link that opens right now: https://axelfreeman.com/proof.html
 
